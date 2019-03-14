@@ -1,0 +1,27 @@
+*{margin: 0;padding: 0;}
+ul,
+ol,
+li {
+  list-style: none;
+  font-family: 'Microsoft YaHei';
+}
+.fr {
+  float: right;
+  *display: inline;
+}
+.fl {
+  float: left;
+  *display: inline;
+}
+/*清除浮动*/
+.clearfix {
+  clear: both;
+  *zoom: 1;
+}
+.clearfix:after {
+  display: block;
+  clear: both;
+  content: '\0020';
+  visibility: hidden;
+  height: 0;
+}
